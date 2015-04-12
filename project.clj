@@ -10,7 +10,7 @@
 
   :plugins [[lein-cljsbuild "1.0.4"]
             [lein-npm "0.4.0"]]
-
+  :min-lein-version "2.0.0"
   :source-paths ["src"]
 
   :cljsbuild {
